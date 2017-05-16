@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { MnFullpageModule } from "ngx-fullpage";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -23,6 +24,7 @@ import { AboutComponent } from './elements/about/about.component';
     FormsModule,
     HttpModule,
     NgbModule.forRoot(),
+    MnFullpageModule.forRoot(),
     AppRoutingModule
   ],
   providers: [],
