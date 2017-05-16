@@ -33,3 +33,16 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 Design links:
 https://dribbble.com/shots/2216609-AMI-Personal-Template/attachments/411487
 https://startbootstrap.com/template-categories/all/
+
+Ideas:
+http://www.aboutmatthewhall.com
+https://onextrapixel.com/2016-web-design-trend-forecast-vertical-split-screen/
+
+
+
+
+
+
+
+
+
