@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {HeaderComponent} from '../../elements';
+import { HeaderComponent, AboutComponent, SkillsComponent, ContactComponent } from '../../elements';
 
 @Component({
   selector: 'app-home',
@@ -7,7 +7,6 @@ import {HeaderComponent} from '../../elements';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  	title: String = "Home";
 
   constructor() { }
 
