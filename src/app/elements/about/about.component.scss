@@ -1,10 +1,28 @@
 img {
-	margin: auto;
+	width: 100%;
+	height: auto;
 }
 
-@media (max-width: 575px) {
-	img {
-		width: 400px;
-		height: 330px;
-	}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+	width: 60%;
+	height: auto;
 }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}
+
+//<img src="https://source.unsplash.com/800x550/?faces" alt="">
+//<img src="https://source.unsplash.com/1920x1080/?faces" alt="faces">
