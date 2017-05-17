@@ -1,0 +1,19 @@
+.left {
+	background-color: red;
+	height: 100vh;
+}
+
+.right {
+	background-color: blue;
+	height: 100vh;
+}
+
+@media (max-width: 991px) { 
+	.left {
+		height: 50vh;
+	}
+
+	.right {
+		height: 50vh;
+	}
+}

@@ -1,0 +1,10 @@
+img {
+	margin: auto;
+}
+
+@media (max-width: 575px) {
+	img {
+		width: 400px;
+		height: 330px;
+	}
+}
