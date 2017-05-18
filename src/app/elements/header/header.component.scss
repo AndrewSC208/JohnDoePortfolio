@@ -1,14 +1,26 @@
-h1 {
+h1, p {
 	color: white;
-	text-align: center;
 }
 
 .slide {
-	background: url("https://source.unsplash.com/vJbz-O1NvSc/1920x1080/") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  	background: url("https://source.unsplash.com/vJbz-O1NvSc/1920x1080/") no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+
+	&:before {
+    	content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background: #ED4264;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		opacity: .6; 
+  	}
 }
 
 .jumbotron {

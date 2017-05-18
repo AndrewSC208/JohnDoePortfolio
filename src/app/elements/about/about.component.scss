@@ -1,12 +1,11 @@
 img {
-	width: 100%;
-	height: auto;
+	display: block; 
+	margin: auto;
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-	width: 60%;
-	height: auto;
+	
 }
 
 // Medium devices (tablets, 768px and up)
@@ -23,6 +22,3 @@ img {
 @media (min-width: 1200px) {
 
 }
-
-//<img src="https://source.unsplash.com/800x550/?faces" alt="">
-//<img src="https://source.unsplash.com/1920x1080/?faces" alt="faces">
