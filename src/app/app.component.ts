@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FooterComponent } from './elements';
 
 @Component({
   selector: 'app-root',
