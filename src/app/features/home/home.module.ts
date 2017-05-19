@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MnFullpageModule } from "ngx-fullpage";
 import { HomeComponent } from './home.component';
-import { HeaderComponent, AboutComponent, SkillsComponent, ContactComponent } from '../../elements';
+import { HeaderComponent, AboutComponent, SkillsComponent, ContactComponent, FooterComponent } from '../../elements';
 
 import { routing } from './home.routing';
 
@@ -20,6 +20,7 @@ import { routing } from './home.routing';
     AboutComponent,
     SkillsComponent,
     ContactComponent,
+    FooterComponent
   ]
 })
 export class HomeModule { }

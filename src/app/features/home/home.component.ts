@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HeaderComponent, AboutComponent, SkillsComponent, ContactComponent } from '../../elements';
+import { HeaderComponent, AboutComponent, SkillsComponent, ContactComponent, FooterComponent } from '../../elements';
 
 @Component({
   selector: 'app-home',
