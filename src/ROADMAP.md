@@ -1,6 +1,11 @@
 # ROADMAP:
 
 A. Setup fullpage slide show.
+
+*****TASK******
+Add a cool bottom and top fixed navigations
+
+
 	
 	1. Header Section:
 		Black and white image, add color gradiant
