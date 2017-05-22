@@ -9,10 +9,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { HomeModule } from './features/home/home.module';
 // import root app component
 import { AppComponent } from './app.component';
+import { NavComponent } from './elements';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,

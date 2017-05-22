@@ -102,6 +102,9 @@ $blue:   #0275d8 !default;
 $teal:   #5bc0de !default;
 $pink:   #ff5b77 !default;
 $purple: #613d7c !default;
+$seafoam: #99b898 !default;
+
+
 
 // Create grayscale
 $gray-dark:                 #292b2c !default;
@@ -113,7 +116,7 @@ $gray-lightest:             #f7f7f9 !default;
 // Reassign color vars to semantic color scheme
 $brand-primary:             $blue !default;
 $brand-success:             $green !default;
-$brand-info:                $teal !default;
+$brand-info:                $white !default;
 $brand-warning:             $orange !default;
 $brand-danger:              $red !default;
 $brand-inverse:             $gray-dark !default;
@@ -123,7 +126,7 @@ $brand-inverse:             $gray-dark !default;
 //
 // Quickly modify global styling by enabling or disabling optional features.
 
-$enable-rounded:            true !default;
+$enable-rounded:            false !default;
 $enable-shadows:            false !default;
 $enable-gradients:          false !default;
 $enable-transitions:        true !default;

@@ -1,3 +1,7 @@
+$clear: rgba(255,255,255,0);
+$primary-gradient-color: #2a3638;
+$secondary-gradient-color: #e84a5f;
+
 h1, p {
 	color: white;
 }
@@ -10,21 +14,21 @@ h1, p {
   	background-size: cover;
 
 	&:before {
-    	content: '';
+    content: '';
 		position: absolute;
 		top: 0;
 		right: 0;
 		bottom: 0;
 		left: 0;
-		background: #355c7d;  /* fallback for old browsers */
-		background: -webkit-linear-gradient(to right, #355c7d, #6c5b7b);  /* Chrome 10-25, Safari 5.1-6 */
-		background: linear-gradient(to right, #355c7d, #6c5b7b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		background: $primary-gradient-color;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, $primary-gradient-color, $secondary-gradient-color);  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to right, $primary-gradient-color, $secondary-gradient-color); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 		opacity: .85; 
   	}
 }
 
 .jumbotron {
-	background: rgba(255,255,255,0);
+	background: $clear;
 }
 
 .lead {

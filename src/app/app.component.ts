@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FooterComponent } from './elements';
+import { NavComponent } from './elements';
 
 @Component({
   selector: 'app-root',
