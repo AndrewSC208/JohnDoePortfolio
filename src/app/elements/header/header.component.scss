@@ -6,6 +6,17 @@ h1, p {
 	color: white;
 }
 
+h1 {
+	font-family: 'Poiret One', cursive;
+	font-size: 5rem;
+}
+
+@media (min-width: 576px) {
+	h1 {
+		font-size: 12rem;
+	}
+}
+
 .slide {
   	background: url("https://source.unsplash.com/vJbz-O1NvSc/1920x1080/") no-repeat center center fixed; 
   	-webkit-background-size: cover;
@@ -35,3 +46,5 @@ h1, p {
 	text-align: center;
 	color: white;
 }
+
+
